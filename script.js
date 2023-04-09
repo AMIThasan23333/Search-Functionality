@@ -31,3 +31,18 @@ const loadAllProducts =async () => {
 setAllMenu();
 
 
+ const searchField = document.getElementById('search-field');
+
+ searchField.addEventListener('keypress', async(event) => {
+
+       
+  if(event.key === 'Enter'){
+
+    console.log(event.key);
+    
+
+  }
+ })
+
+
+
